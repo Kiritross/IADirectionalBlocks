@@ -1,0 +1,32 @@
+#    ____   ____     .__   __                  _____  _________
+#    \   \ /   /____ |  |_/  |_ __ __  ______ /     \ \_   ___ \
+#     \   Y   // __ \|  |\   __\  |  \/  ___//  \ /  \/    \  \/
+#      \     /\  ___/|  |_|  | |  |  /\___ \/    Y    \     \____
+#       \___/  \_____>____/__| |____//______>____|__  /\________/
+#
+# --+-------------------------------------------------------------+--
+#     VeltusMC© - Developed by VeltusMC - All Rights Reserved
+# --+-------------------------------------------------------------+--
+
+Blocks:
+  bloques:arena_compactada:
+    UP: bloques:jaspe_ore
+    DOWN: bloques:jaspe_ore
+    NORTH: bloques:piedra_cincelada
+    SOUTH: bloques:piedra_cincelada
+    EAST: bloques:madera_oscura_cortada
+    WEST: bloques:madera_oscura_cortada
+Messages:
+  reload: '&aReloading configuration...'
+  no-permission: '&cYou don''t have permission to use this command.'
+Configuration:
+  permissions:
+    reload: iadb.reload
+Authentication:
+  Token: "Token of the license"
+  ServerID: "ServerID"
+
+#--+---------------------------Credits---------------------------+--
+#     Creator: Kiritross - Official Developer of IA-DB
+#     Contact: kiritross#5806 on discord
+#--+-------------------------------------------------------------+--

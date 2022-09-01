@@ -1,0 +1,13 @@
+name: IADirectionalBlocks
+version: '${project.version}'
+main: com.kiritokirigami5.Main
+api-version: 1.18
+authors: [ kiritokirigami5 ]
+description: Directional Blocks
+website: https://tienda.veltusmc.com
+depend:
+  - ItemsAdder
+commands:
+  iadb:
+    description: "IADirectionalBlocks"
+    usage: /iadb reload
